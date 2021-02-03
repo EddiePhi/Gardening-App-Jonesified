@@ -1,0 +1,33 @@
+{
+  "name": "gardening-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EddiePhi/Gardening-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EddiePhi/Gardening-App/issues"
+  },
+  "homepage": "https://github.com/EddiePhi/Gardening-App#readme",
+  "dependencies": {
+    "dayjs": "^1.10.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "isomorphic-fetch": "^3.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7",
+    "sequelize": "^6.3.5",
+    "shortid": "^2.2.16"
+  }
+}
